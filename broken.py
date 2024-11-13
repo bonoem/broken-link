@@ -1,3 +1,14 @@
+#This script will go through using os, the base directory you provide in input once you run the code, and checking for internal (local) non existing links
+# or external (websites) non existing links. If it finds any it will print the file and the link that is broken
+#Needed libraries to run the code are: os, re (although these are generally already installed with python), requests, beautifulsoup4
+#
+#To insTall the required packages you must insert in your terminal the following command:
+# pip install beautifulsoup4 requests
+#
+# In order to use the script you must run the script and provide the path of the directory that your website is located
+# tip: use vscode as compiler
+
+
 import os
 import re
 import requests
